@@ -1,0 +1,128 @@
+[
+    {
+      "nombre": "Las Arboledas",
+      "direccion": "Av. Jinetes #60, Tlalnepantla de Baz, Estado de México",
+      "colonia": "Las Arboledas",
+      "latitud": 19.5726,
+      "longitud": -99.2896
+    },
+    {
+      "nombre": "Cantera Puente de Piedra",
+      "direccion": "Periférico Sur #5938, Tlalpan, Ciudad de México",
+      "colonia": "Cantera Puente de Piedra",
+      "latitud": 19.3000,
+      "longitud": -99.1700
+    },
+    {
+      "nombre": "Avándaro",
+      "direccion": "Del Carmen 28, Valle de Bravo, Estado de México",
+      "colonia": "Avándaro",
+      "latitud": 19.1823,
+      "longitud": -100.1300
+    },
+    {
+      "nombre": "Florida",
+      "direccion": "Av. Insurgentes Sur 1690, Álvaro Obregón, Ciudad de México",
+      "colonia": "Florida",
+      "latitud": 19.3600,
+      "longitud": -99.1800
+    },
+    {
+      "nombre": "El Carmen (Coyoacán)",
+      "direccion": "Aguayo 3 Locales G, H, I y J, Coyoacán, Ciudad de México",
+      "colonia": "El Carmen",
+      "latitud": 19.3550,
+      "longitud": -99.1620
+    },
+    {
+      "nombre": "Condesa",
+      "direccion": "Campeche #362-A, Cuauhtémoc, Ciudad de México",
+      "colonia": "Condesa",
+      "latitud": 19.4170,
+      "longitud": -99.1630
+    },
+    {
+      "nombre": "Teopanzolco",
+      "direccion": "Esquina Río Mayo, Cuernavaca, Morelos",
+      "colonia": "Teopanzolco",
+      "latitud": 18.9260,
+      "longitud": -99.2410
+    },
+    {
+      "nombre": "Del Valle",
+      "direccion": "Adolfo Prieto #1149, Benito Juárez, Ciudad de México",
+      "colonia": "Del Valle",
+      "latitud": 19.3580,
+      "longitud": -99.1630
+    },
+    {
+      "nombre": "Juárez",
+      "direccion": "Hamburgo #70 Local A, Cuauhtémoc, Ciudad de México",
+      "colonia": "Juárez",
+      "latitud": 19.4326,
+      "longitud": -99.1628
+    },
+    {
+      "nombre": "Jesús del Monte",
+      "direccion": "Av. Jesús del Monte #271, Huixquilucan, Estado de México",
+      "colonia": "Jesús del Monte",
+      "latitud": 19.3770,
+      "longitud": -99.2670
+    },
+    {
+      "nombre": "Las Águilas",
+      "direccion": "Calzada de las Águilas #184, Álvaro Obregón, Ciudad de México",
+      "colonia": "Las Águilas",
+      "latitud": 19.3000,
+      "longitud": -99.2000
+    },
+    {
+      "nombre": "Jardines de Coyoacán",
+      "direccion": "Av. Canal de Miramontes #2872, Coyoacán, Ciudad de México",
+      "colonia": "Jardines de Coyoacán",
+      "latitud": 19.3500,
+      "longitud": -99.1600
+    },
+    {
+      "nombre": "Pedregal de San Ángel",
+      "direccion": "Blvd. Adolfo López Mateos #4020, Álvaro Obregón, Ciudad de México",
+      "colonia": "Pedregal de San Ángel",
+      "latitud": 19.3000,
+      "longitud": -99.2000
+    },
+    {
+      "nombre": "Polanco",
+      "direccion": "Av. Moliere #335, Polanco, Miguel Hidalgo, Ciudad de México",
+      "colonia": "Polanco",
+      "latitud": 19.4360,
+      "longitud": -99.1950
+    },
+    {
+      "nombre": "Condesa (Tamaulipas)",
+      "direccion": "Tamaulipas #122, Cuauhtémoc, Ciudad de México",
+      "colonia": "Condesa",
+      "latitud": 19.4170,
+      "longitud": -99.1630
+    },
+    {
+      "nombre": "Santa Fe",
+      "direccion": "Lateral Autopista México-Toluca #1235, Cuajimalpa, Ciudad de México",
+      "colonia": "Santa Fe",
+      "latitud": 19.3600,
+      "longitud": -99.2000
+    },
+    {
+      "nombre": "Barranca",
+      "direccion": "Av. Barranca #500, Cuajimalpa, Ciudad de México",
+      "colonia": "Barranca",
+      "latitud": 19.3350,
+      "longitud": -99.2100
+    },
+    {
+      "nombre": "Las Águilas 733",
+      "direccion": "Av. Las Águilas #733, Álvaro Obregón, Ciudad de México",
+      "colonia": "Las Águilas",
+      "latitud": 19.3050,
+      "longitud": -99.2050
+    }
+  ]  
