@@ -1,6 +1,7 @@
 # Árboles k-d (k-dimensionales)
 
-**Definición:** Un árbol k-d es una estructura de datos que organiza puntos en espacios multidimensionales.
+**Definición:** 
+Un árbol k-d es una estructura de datos que organiza puntos en espacios multidimensionales.
 Cada nodo del árbol representa un punto que divide el espacio en dos partes alternando
 dimensiones en cada nivel. Esto facilita búsquedas rápidas de puntos en varias dimensiones.
 
