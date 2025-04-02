@@ -7,6 +7,7 @@ import math
 
 class Util: 
     # seleccion directa, ordenando por dimension (latitud o longitud de la taquería)
+    @staticmethod
     def seleccion_directa(taquerias, dimension):
         n = len(taquerias)
 
