@@ -1,9 +1,8 @@
 '''
 @author Fernando Barrios
-@author Slfia bonilla 
 
 30/03/2025
-Definición de clases que vamos a usar para:
+Definición de clases utiles y clases atómicas para:
 Implementación de árbol k-d balanceado para encontrar El Tizoncito (taquería) más cercano a algún punto.
 '''
 import math 
