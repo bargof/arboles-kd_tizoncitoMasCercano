@@ -73,4 +73,4 @@ división con la distancia al K-ésimo vecino encontrado.
 ed.). Springer.
 
 ## Siguiente Paso  
-Consulta la [documentación del código](DocumentaciónCodigo.md)
+Consulta la [documentación del código](DocumentacionCodigo.md)
