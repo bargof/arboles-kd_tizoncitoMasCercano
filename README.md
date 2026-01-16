@@ -1,6 +1,6 @@
 # Navegación del Proyecto 
 
-Antes de leer la explicación de árboles k-d y continuar con el código, es recomendable conocer los fundamentos de la estructura árbol y los arboles binarios de búsqueda. Si no conoces los temas, los puedes consultar [aquí](). Si deseas continuar, este es el órden que deberías llevar.
+Antes de leer la explicación de árboles k-d y continuar con el código, es recomendable conocer los fundamentos de la estructura árbol y los arboles binarios de búsqueda. Si no conoces los temas, los puedes consultar [aquí](). Si deseas continuar, lee las siguientes notas en el orden propuesto.
 
 ## Pasos 
 1. Leer la explicación de árboles k-d: [ExplicacionArbolKd.md](ExplicacionArbolKd.md)
