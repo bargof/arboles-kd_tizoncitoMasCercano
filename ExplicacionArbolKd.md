@@ -2,8 +2,8 @@
 
 **Definición:** 
 Un árbol k-d es una estructura de datos que organiza puntos en espacios multidimensionales.
-Cada nodo del árbol representa un punto que divide el espacio en dos partes alternando
-dimensiones en cada nivel. Esto facilita búsquedas rápidas de puntos en varias dimensiones.
+Cada nodo del árbol representa un punto que divide el espacio en dos subespacios, alternando
+dimensiones (ejes), en cada nivel del arbol. Esto facilita búsquedas rápidas de puntos en varias dimensiones.
 
 **Casos de uso:**
 * Sistemas de Información Geográfica (GIS), sistemas GPS
@@ -14,23 +14,23 @@ dimensiones en cada nivel. Esto facilita búsquedas rápidas de puntos en varias
 * Balanceado: Usa medianas para dividir, garantizando una altura aproximada de O(log n),
 lo que optimiza las búsquedas.
 * No balanceado: Se obtiene al insertar puntos secuencialmente ordenados, resultando en
-una altura O(n), menos eficiente.
+una altura O(n), por lo que resulta menos eficiente.
 
 ## Estructura
 **Construcción:** (usando medianas para balancearlo)
-1. Escoger dimensión alternando en cada nivel.
-2. Calcular la mediana en la dimensión elegida.
+1. Escoger dimensión (eje) alternando en cada nivel.
+2. Calcular la mediana en la dimensión (eje) elegida.
 3. Dividir puntos y aplicar recursivamente para los subárboles resultantes.
 Tiempo: O(n log n) | Espacio: O(n)
 
 
 **Ejemplo simple (2D):**
 1. Supongamos los puntos: (2,3), (5,4), (9,6), (4,7), (8,1), (7,2)
-2. Se elige el eje X para la raíz y la mediana es (7,2).
-3. A la izquierda del 7 (X<7) están los puntos (2,3), (5,4), (4,7).
-4.  En el siguiente nivel, con eje Y, la mediana es (5,4), dividiendo en (2,3) abajo y (4,7)
+2. Se elige el eje X para la raíz del árbol y la mediana es (7,2).
+3. A la izquierda del 7 {para cualquier x del eje X; x < 7}; se tienen los puntos: (2,3), (5,4), (4,7).
+4. En el siguiente nivel se escoge el eje Y. La mediana es (5,4), la cual divide en (2,3) abajo y (4,7)
 arriba.
-5. A la derecha del 7 (X≥7) está el punto (9,6) y (8,1); con eje Y la mediana es (9,6),
+5. A la derecha del 7 {X ≥ 7} está el punto (9,6) y (8,1). Con eje Y, la mediana es (9,6),
 dejando (8,1) abajo.
 
 
@@ -55,7 +55,7 @@ dejando (8,1) abajo.
    1. Encontrar el mínimo en la misma dimensión del subárbol derecho.
    2. Copiar ese punto al nodo actual y eliminar el nodo mínimo encontrado (que tendrá 0 o 1 hijo).
 * Tiempo: O(log n) promedio, O(n) peor caso | Espacio: O(1)
-### Algoritmo KNN (vecinos más cercanos)
+### Algoritmo KNN: _k-nearest neighbor_ (vecinos más cercanos)
 1. Descender desde la raíz hasta una hoja usando comparaciones normales.
 2. Retroceder y registrar los K vecinos más cercanos encontrados.
 3. Para cada nodo durante retroceso:
